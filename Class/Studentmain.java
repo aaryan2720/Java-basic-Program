@@ -9,10 +9,10 @@ public class Studentmain {
     public void setData(String name,int age){
         n=name;
         a=age;
-        }
-        public void displayData(){
-            System.out.println("Name: "+n);
-            System.out.println("Age: "+a);
-            }
+    }
+    public void displayData(){
+        System.out.println("Name: "+n);
+        System.out.println("Age: "+a);
+    }
 
 }
