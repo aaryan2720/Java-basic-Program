@@ -26,7 +26,7 @@ public class Conditional {
                 if (num2 != 0) {
                     System.out.println("Division of two numbers is: " + (num1 / num2));
                     } else {
-                        System.out.println("Error! Division by zero is not allowed.");
+                        System.out.println("Error! Division by zero is not allowed.");  
                         }
                         }
 

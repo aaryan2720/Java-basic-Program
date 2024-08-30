@@ -11,3 +11,5 @@ public class Array {
 // Sorting and unsorting of array - use Array.sort(Arrayname);
 // If you want to keep some elements away from sorting - declare no. of integer,startingIndex,endingindex
 //Binary search operates on only sorted array 
+//Array.fill(arrayname,'your elemernt');
+//Array.sort(arrayname);
