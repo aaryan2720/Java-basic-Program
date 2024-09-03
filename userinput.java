@@ -13,7 +13,9 @@ class UserInput {
             scanner.nextLine();
             System.out.printf("hmmmm %f is good, which language do you prefer? ", percent);
             String language = scanner.nextLine();
-            System.out.printf("%s is a good language lets start",language);
+            System.out.printf("%s is a good language lets start,Btw whats is your hobby? ",language);
+            String hobby = scanner.nextLine();
+            System.out.printf("hmmmm %s is a good hobby lets start coding,lets start",hobby);
         }
 
     }
