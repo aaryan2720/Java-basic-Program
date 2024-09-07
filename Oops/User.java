@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class User{
     private String name;
     private  LocalDate birthDay;
-    public ArrayList<Book>books = new ArrayList<>();
+    private ArrayList<Book>books = new ArrayList<>();
 
     User(String name, String birthDay){
         this.name = name;
@@ -33,6 +33,12 @@ public class User{
 
     public String getName() {
         return this.name;
+    }
+
+    public String borrowedBooks(){
+        return this.books.toString();
+
+        
     }
     
 
