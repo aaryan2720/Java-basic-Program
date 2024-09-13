@@ -18,6 +18,8 @@ public class If {
             }
             if (n % 2 == 0 && n > 20 && n<100) {
                 System.out.println("Not Weird");
+
+                
             }
         }
         else{

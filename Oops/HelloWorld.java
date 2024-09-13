@@ -9,9 +9,6 @@ public class HelloWorld {
         Ebook mein_kanf = new Ebook("Mein Kanf", "Hitler ", 770, "pdf");
         System.out.println(chanakyaniti.toString());
         System.out.println(mein_kanf.toString());
-
-
-
         System.out.printf("%s was born back in %s and he now %d years old\n", user.getName(), user.getBirthDay(),
                 user.age());
         System.out.printf("%s has borrowed these books:%s\n ", user.getName(), user.borrowedBooks());
