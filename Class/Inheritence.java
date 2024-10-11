@@ -2,11 +2,9 @@
 public class Inheritence {
 
     public static void main(String[] args) {
-        Animal animal = new Animal();
         Dog dog = new Dog();
         Cat cat = new Cat();
         Pig pig = new Pig();
-        System.out.println(animal.sound());
         System.out.println(dog.sound());
         System.out.println(cat.sound());
         System.out.println(pig.sound());
@@ -34,8 +32,9 @@ class Cat extends Animal {
     }
 }
 
-class Pig extends Animal{
-    public String sound(){
+class Pig extends Animal {
+    public String sound() {
         return "Pig oinks";
-        }
     }
+}
+
