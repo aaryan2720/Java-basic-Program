@@ -11,6 +11,7 @@ public class Inheritence {
     }
 }
 
+
 class Animal {
 
     public String sound() {
