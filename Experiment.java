@@ -13,7 +13,6 @@ class Student {
         this.name = name;
     }
 
-
     
     int getRollNo() {
         return rollNo;
