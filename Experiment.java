@@ -65,6 +65,8 @@ class Result extends Test implements Sports {
         return SPORTS_MARKS;
     }
 
+    
+
     float calculateFinalResult() {
         return getTest1() + getTest2() + getSportsMarks();
     }
