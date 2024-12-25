@@ -68,7 +68,7 @@ class Result extends Test implements Sports {
     float calculateFinalResult() {
         return getTest1() + getTest2() + getSportsMarks();
     }
-    
+
     public static void main(String[] args) {
         Result studentResult = new Result(42, "Aaryan", 80.00f, 90.0f);
         System.out.println("Roll No: " + studentResult.getRollNo());
