@@ -1,1 +1,0 @@
-2-d Array - A type of array which has two dimensions like rows and columns , x axis and y axis
